@@ -1,6 +1,6 @@
 
 
-const Navbar = () => {
+const Navbar = ({setCategory}) => {
   return (
 
        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -13,22 +13,22 @@ const Navbar = () => {
       <ul className="navbar-nav">
         
         <li className="nav-item">
-          <div className="nav-link" >Technology</div>
+          <div className="nav-link" onClick={()=>setCategory("technology")} >Technology</div>
+        </li>n
+        <li className="nav-item">
+          <div className="nav-link" onClick={()=>setCategory("business")} >Business</div>
         </li>
         <li className="nav-item">
-          <div className="nav-link" >Business</div>
+          <div className="nav-link" onClick={()=>setCategory("health")}>Health</div>
         </li>
         <li className="nav-item">
-          <div className="nav-link" >Health</div>
+          <div className="nav-link" onClick={()=>setCategory("science")} >Science</div>
         </li>
         <li className="nav-item">
-          <div className="nav-link" >Science</div>
+          <div className="nav-link" onClick={()=>setCategory("sports")}>Sports</div>
         </li>
         <li className="nav-item">
-          <div className="nav-link" >Sports</div>
-        </li>
-        <li className="nav-item">
-          <div className="nav-link" >Entertainment</div>
+          <div className="nav-link" onClick={()=>setCategory("entertainment")}>Entertainment</div>
         </li>
        
       </ul>

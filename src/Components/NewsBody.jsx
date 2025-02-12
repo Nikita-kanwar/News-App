@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react"
-import NewsItem from "./NewsItem";
+import Items from "./Items";
 
 const NewsBody = ({category}) => {
 
@@ -19,7 +19,7 @@ const NewsBody = ({category}) => {
     <div>
          <h2 className="text-center mt-2 " >Latest <span className="badge  bg-dark " >News</span>  </h2>
          {articles.map((news,index)=>{
-          return <NewsItem key={index}  title ={news.title} description={news.description} src={news.urlToImage} url={news.url} />
+          return <Items key={index}  title ={news.title} description={news.description} src={news.urlToImage} url={news.url} />
          })}
     </div>
   )
