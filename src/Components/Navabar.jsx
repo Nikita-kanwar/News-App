@@ -35,6 +35,9 @@ const Navbar = ({setCategory}) => {
     </div>
   </div>
 </nav>
+         
+
+         
   
   )
 }
