@@ -16,7 +16,7 @@ A modern and responsive **News App** built with **React.js** and **Vite**, desig
 - **React.js** – Component-based frontend framework  
 - **Vite** – Fast and optimized development server  
 - **Axios** – For fetching news data from an external API  
-- **CSS Modules / Tailwind CSS** – Styling the UI  
+- **CSS Modules / Bootstrap** – Styling the UI  
 - **React Router** – Navigation between different categories  
 
 ## 🔧 Installation & Setup
